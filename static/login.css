@@ -1,0 +1,77 @@
+body{
+  background-image: url("images/food.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  height: 350px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container form input{
+  background: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+} 
+.container form button{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  transition: transform 1.0s ease;
+}
+.container form button:hover{
+  transform: scale(1.1);
+  background: orange;
+}
+.container a{
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+.container a:hover{
+  color: blue;
+}
+.navbar{
+  background: rgba(255, 148, 71, 0.7);
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 0;
+}
+.navbar a{
+  margin: 10px;
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: transform 1.5s ease;
+  padding: 10px;
+  color: black;
+}
+.navbar a:hover{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+}
